@@ -1,16 +1,25 @@
 {
   "name": "graphql",
   "version": "1.0.0",
-  "description": "",
+  "description": "GraphQL n+1 problem demo",
   "main": "index.js",
   "scripts": {
     "start": "node ./index.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "scssyworks",
+  "license": "UNLICENSED",
   "dependencies": {
     "apollo-server": "^3.6.5",
     "graphql": "^16.3.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scssyworks/graphql-example.git"
+  },
+  "bugs": {
+    "url": "https://github.com/scssyworks/graphql-example/issues"
+  },
+  "homepage": "https://github.com/scssyworks/graphql-example#readme"
 }
