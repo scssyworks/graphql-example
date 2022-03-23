@@ -11,9 +11,9 @@
   "license": "UNLICENSED",
   "dependencies": {
     "apollo-server": "^3.6.5",
+    "dataloader": "^2.0.0",
     "graphql": "^16.3.0"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/scssyworks/graphql-example.git"

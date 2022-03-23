@@ -1,4 +1,5 @@
 const { ApolloServer, gql } = require("apollo-server");
+const bookLoader = require("./bookLoader");
 const { authors, books } = require("./data");
 
 const typeDefs = gql`
@@ -32,8 +33,7 @@ const resolvers = {
   },
   Author: {
     books: (parent) => {
-      console.log("FETCH: Books for particular author");
-      return books.filter((book) => book.author === parent.id);
+      return bookLoader.load(parent.id);
     },
   },
 };
